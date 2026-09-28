@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/fetchjson",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fetch HTML/Markdown json fragments safely for docs pipelines.",
+  "bin": {
+    "fetchjson": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/fetchjson.git"
+  },
+  "homepage": "https://theworker02.github.io/fetchjson/",
+  "keywords": [
+    "fetch",
+    "json",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
